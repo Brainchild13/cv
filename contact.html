@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact</title>
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <ul>
+        <li>
+            <strong>Email:</strong> 
+            <a href="mailto:davidschwartz23@gmail.com" target="_blank">davidschwartz23@gmail.com</a>
+        </li>
+        <li>
+            <strong>Phone: </strong>
+            <a href="tel:310-980-6666">310-980-6666</a>
+        </li>
+        <li>
+            <strong>Location: </strong>Los Angeles, Ca 90066
+        </li>
+        <li>
+            <strong>Facebook: </strong>
+            <a href="facebook.com" target="_blank"></a>
+        </li>
+        <li>
+            <strong>LinkedIn: </strong>
+            <a href="http://www.linkedin.com" target="_blank"></a>
+        </li>
+    </ul>
+    <hr>
+    <form  action="mailto:davidschwartz23@gmail.com" method="post" enctype="text/plain">
+        <label>Your Name</label><br>   
+        <input type="text" name="yourName"><br>
+        <labe>Email</label><br>
+        <input type="email" name="yourEmail"><br>           
+        <label>Password: </label><br>
+        <input type="password" name="yourPassword"><br>
+        <label>Phone</label><br>
+        <input type="tel" name="yourPhone"><br>
+        <label>Website</label><br>
+        <input type="url" name="yourWebsite"><br>
+        <label>Your Message</label><br>
+        <textarea cols="22" rows="5" name="yourMessage"></textarea><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
